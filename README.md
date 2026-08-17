@@ -31,6 +31,25 @@ KELAS : IF 401
     7. Pertemuan 7: Machine Learning - Regresi Linear Berganda : https://colab.research.google.com/drive/1UWzzE26p4jZL_OASFC1CoVTBNTPeWC5U?usp=sharing
         Topik: Membangun model Multiple Linear Regression menggunakan dataset gaji sintetis. Melakukan evaluasi metrik (R-squared, MAE, RMSE) dan menguji asumsi regresi (Homoskedastisitas) dengan Actual vs Predicted Plot dan Residual Plot.
 
+     9. Pertemuan 9: Algoritma Klasifikasi Bag 1 : https://colab.research.google.com/drive/1iYpv0nfixlon5aGIanu87igAejDr3UQu?usp=sharing
+        Topik: Lanjutan Membangun model Multiple Linear Regression menggunakan dataset gaji sintetis. Melakukan dasar Klasifikasi, Logistic Regression, Decission Tree, dan Metric Evaluasi Klasifikasi
+
+     10. Pertemuan 10: Algoritma Klasifikasi Bag 2 : https://colab.research.google.com/drive/1P0aKgjAUYiXVivQ1xCe70PLbKjAO4lMD?usp=sharing
+        Topik: Lanjutan Membangun model Multiple Linear Regression menggunakan dataset gaji sintetis. Memperkenalkan Konsep Ensemble Learning, Algoritma Random Forenst, Penanganan Imbalanced dataset.
+
+     11. Pertemuan 11: Algoritma Klasifikasi Bag 2 : https://colab.research.google.com/drive/1Sf61UM-aJWIcLbyitRYS1PhyG8radWSV?usp=sharing
+        Topik: Materi Unsupervised Learning: Clustering (K-Means & Hierarchical), Mempelajari Konsep Dasar Dasar Clustering dan Unsupervised Learning, Algoritma K-Means Clustering, Algoritma Hierarchical Clustering
+        , Metode Elbow dan Metrik Evaluasi
+
+     12. Pertemuan 12: Asosiasi Data dan Sistem Rekomendasi : https://colab.research.google.com/drive/1yraD3AjMXm2QpLaNfLcknU-NwFglFJcp?usp=sharing
+        Topik: Membahas Konsep Asosiasi Data (Association Rule Mining), Menjelaskan prinsip dasar Apriori (downward closure) dan tahapan algoritma iteratifnya untuk memfilter kandidat itemset, dan Membedakan antara Association Rules dengan Sistem Rekomendasi
+
+     13. Pertemuan 13: Modul Deep Learning & NLP Dasar : https://colab.research.google.com/drive/1plujUkqsF9HU7aX4PEte75l8MX7QR48D?usp=sharing
+        Topik:  Membahas alasan perlunya Deep Learning untuk memproses data yang tidak terstruktur (seperti gambar, teks, dan audio) serta perbedaannya dengan algoritma Machine Learning klasik. Menjelaskan konsep dan komponen dasar neuron buatan, termasuk input, weight (bobot), bias, dan activation function seperti ReLU, Sigmoid, serta Softmax. Memberikan panduan praktis penggunaan API tingkat tinggi Keras dan TensorFlow. Membahas cara mengubah data teks menjadi representasi angka atau numerik (text vectorization) agar dapat diproses oleh model. Mengulas konsep analisis sentimen untuk menentukan label positif, negatif, atau netral dari suatu ulasan teks.
+    
+        
+        
+
 4. Tools & Library yang Digunakan :
 Proyek dalam repository ini sepenuhnya dibangun menggunakan ekosistem bahasa pemrograman Python 3. Library utama yang saya gunakan meliputi:
    1.Pandas: Untuk memuat, memanipulasi, dan membersihkan data (DataFrame).
@@ -49,3 +68,6 @@ Proyek dalam repository ini sepenuhnya dibangun menggunakan ekosistem bahasa pem
     Perjalanan dari Pertemuan 1 hingga 7 telah membuka wawasan saya terhadap Pipeline Data Science yang sesungguhnya. Saya belajar bahwa proses Machine Learning (seperti melatih model regresi di Pertemuan 7) hanyalah ujung dari sebuah gunung es.
    Fase yang paling menentukan akurasi sebuah model justru terletak pada persiapan data: mulai dari mengenali karakteristik data lewat EDA (Pertemuan 2 & 4), membersihkan data yang cacat dan membuang outlier (Pertemuan 3), mengomunikasikan pola melalui visualisasi (Pertemuan 5), hingga melakukan transformasi matematis seperti Encoding dan Scaling secara cermat agar model tidak menjadi bias (Pertemuan 6).
     Pembelajaran ini menjadi fondasi yang sangat kokoh bagi saya untuk terus mengeksplorasi cabang ilmu Artificial Intelligence yang lebih kompleks di masa depan.
+
+    Perjalanan dari Pertemuan 9 hingga 13, Secara keseluruhan, Rangkaian Pertemuan 9 hingga 13 berfokus pada peningkatan kemampuan dan kompleksitas pemrosesan data. Pembelajaran bergerak dari algoritma dasar yang membutuhkan campur tangan manusia untuk mengekstraksi fitur, menuju algoritma eksplorasi data (Unsupervised), dan berpuncak pada arsitektur Deep Learning yang memungkinkan komputer mengenali pola rumit dari data tidak terstruktur secara mandiri.
+   Modul 9 & 10 (Dasar Machine Learning): Berfokus pada fondasi Machine Learning klasik yang mencakup tahapan preprocessing data dan algoritma seperti Regresi. Modul 11 (Unsupervised Learning - Clustering): Beralih ke metode pembelajaran tanpa label (Unsupervised Learning), secara spesifik membahas algoritma Clustering untuk mengelompokkan data. Modul 12 (Unsupervised Learning - Asosiasi Data): Melanjutkan konsep Unsupervised Learning dengan fokus pada Association Rule Mining (mencari pola kombinasi antar item) dan pengantar Sistem Rekomendasi.Modul 13 (Pengantar Deep Learning & NLP): Menjadi jembatan menuju AI modern dengan memperkenalkan Jaringan Saraf Tiruan (Artificial Neural Network).
